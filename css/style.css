@@ -1,0 +1,41 @@
+@font-face {
+font-family: Audiowide-Regular;
+src: url(../font/Audiowide-Regular.ttf) format("truetype");
+}
+@font-face {
+font-family: NixieOne-Regular;
+src: url(../font/NixieOne-Regular.ttf) format("truetype");
+}
+@font-face {
+font-family: Gruppo-Regular;
+src: url(../font/Gruppo-Regular.ttf) format("truetype");
+}
+@font-face {
+font-family: Megrim;
+src: url(../font/Megrim.ttf) format("truetype");
+}
+@font-face {
+font-family: CinzelDecorative-Bold;
+src: url(../font/CinzelDecorative-Bold.ttf) format("truetype");
+}
+p{
+	font-size:  1.4em;
+}
+
+
+body{
+	font-family: "Gruppo-Regular", serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Audiowide-Regular", serif;
+}
+
+article h4{
+	font-family: "CinzelDecorative-Bold", serif;
+}
+
+footer{
+	font-family: "CinzelDecorative-Bold";
+}
+
