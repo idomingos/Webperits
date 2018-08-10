@@ -44,7 +44,8 @@
           apiKey: API_KEY,
           clientId: CLIENT_ID,
           discoveryDocs: DISCOVERY_DOCS,
-          scope: SCOPES
+          scope: SCOPES,
+          immediate: true
         }).then(function () {
           // Listen for sign-in state changes.
           gapi.auth2.getAuthInstance().isSignedIn.listen(updateSigninStatus);
